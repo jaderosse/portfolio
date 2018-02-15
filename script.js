@@ -26,7 +26,7 @@ $("#warboats").click(function(){
 
 
 $('.parallax-window').parallax({
-	imageSrc: 'https://cdn.pixabay.com/photo/2017/01/18/21/34/cyprus-1990939_960_720.jpg'
+	imageSrc: 'imgs/tree.jpg'
 });
 
 // checkLinks();
