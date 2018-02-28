@@ -1,32 +1,29 @@
-// $("#warboats").click(function(){
-// 	$(this).css('filter', 'blur(5px)');
-// 	console.log("ive been clicked");
+$(document).ready( function() {
+    $(".button-collapse").sideNav({
+    	 closeOnClick: true
+    });
 
-// });
-$("#links").hide();
-$("#warboats").click(function(){	
-	$("#links").toggle();
+    new TypeIt('#dev', {
+    	speed: 100,
+    	lifeLike: true,
+    	autoStart: false,
+    	cursor: false
+	})
+	.type('Full-Stack Web Developer...')
+	.pause(2000)
+	.options({speed: 300})
+	.delete(3)
+	.options({speed: 100})
+	.pause(1000)
+	.type('<p>& Musician & Bibliophile & Dog Mom</p>')
+	.pause(1000)
+	.type('<h2>&hearts;</h2>')
+
+	new TypeIt('#about-type', {
+		strings: 'About Me',
+		speed: 100,
+		lifeLike: true,
+		autoStart: false
+	});
+
 });
-// $("#warboats").mouseover(function(){
-// 	$(this).css('filter', 'blur(5px)');
-// });
-// $("#warboats").mouseout(function(){
-// 	$(this).css('filter', 'none');
-// });
-
-// $("#about").resizable(function(){
-//   	animate: true
-//   	console.log('loaded!');
-// });
-
-// $("#portfolio").resizable(function(){
-//   	animate: true
-//   	console.log('loaded!');
-// });
-
-
-$('.parallax-window').parallax({
-	imageSrc: 'imgs/tree.jpg'
-});
-
-// checkLinks();
