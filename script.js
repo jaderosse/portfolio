@@ -26,4 +26,11 @@ $(document).ready( function() {
 		autoStart: false
 	});
 
+	new TypeIt('#project-type', {
+		strings: 'Projects',
+		speed: 100,
+		lifeLike: true,
+		autoStart: false
+	});
+
 });
