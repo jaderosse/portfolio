@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Jade's Portfolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
@@ -26,58 +27,88 @@
 		<li><a href="projects.html">Portfolio</a></li>
 		<li><a href="about.html">About Me</a></li>
 	</ul>
-	<h2 id="project-type"></h2>
+	<div id="proj">
+		<img src="imgs/pass.png">
+		<h2 id="project-type"></h2>
+	</div>
 		<div class="row">
-			<div class="col s4">
-				<h3>Hue</h3>
-				<img src="imgs/GitHub-Mark-32px.png">
-			</div>
-			<div class="col s6 offset-s1">
-				<img class="image" src="imgs/hue_gif.gif">
-			</div>
-			<div class="col s12">
-				<hr>
-				<p>Description: A MERN-stack app that detects colors based on an uploaded or public photo, calculates multiple complementary colors, and can be saved to the user's palette of colors</p>
-				<p>Tech Used: MongoDB, Mongoose, Express, React.js, Node.js, Express, HTML, CSS, Javascript, Imagga API</p>
-				<p>Contributors: <a href="#">Desiree Rainey</a>, <a href="http://seancswanson.com">Sean Swanson</a></p>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col s4">
-				<h3>Warboats</h3>
-			</div>
-			<div class="col s6 offset-s1">
-				<img class="image" src="imgs/Warboatsgif.gif">
-			</div>
-			<div class="col s12">
-				<hr>
-				<p>Description: An app based off the classic board game - user battles against an AI whose positions and targets are randomly selected</p>
-				<p>Tech Used: Jquery, Javascript, HTML, CSS</p>
-				<p>Help from: <a href="#">Nick Nedev</a></p>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col s4">
+			<div class="col s12 m5">
 				<h3>H2Oh!</h3>
+				<a class="waves-effect waves-light btn">Github</a>
+				<a class="waves-effect waves-light btn">Live Site</a>
 			</div>
-			<div class="col s6 offset-s1">
-				<img class="image" src="imgs/Water.gif">
+			<div class="col s12 m6">
+				<img class="image" src="imgs/lapytopy.png">
+			</div>
+			<div class="col s10 offset-s1 m5 offset-m6 content">
+				<img class="screen" src="imgs/Water.gif">			
 			</div>
 			<div class="col s12">
-				<hr>
-				<p>A Node.js/Express app with auth capabilities that calculates the user's ideal water intake, using exercise and location input from user</p>
-				<p>Tech Used: Node JS, Express, EJS, Javascript, SQL, Sequelize, WeatherUnderground API, HTML, CSS</p>
-				<p>Help from: <a href="#">Justin Mitchell</a></p>
+				<ul class="collapsible" data-collapsible="accordion">
+	    			<li>
+	      			<div class="collapsible-header"><i class="material-icons">filter_drama</i>Description</div>
+	      			<div class="collapsible-body"><span>			
+	      				<p>A Node.js/Express app with auth capabilities that calculates the user's ideal water intake, using exercise input and real-time temperature data pulled from a RESTful API</p>
+						<p>Tech Used: Node JS, Express, EJS, Javascript, SQL, Sequelize, WeatherUnderground API, HTML, CSS, Charts.js</p>
+						<p>Help from: <a href="#">Justin Mitchell</a></p>
+					</span></div>
+	    			</li>
+	    		</ul>
+		</div>
+		<div id="hue" class="row">
+			<div class="col s12 m5">
+				<h3>Hue</h3>
+				<a class="waves-effect waves-light btn">Github</a>
+				<a class="waves-effect waves-light btn">Live Site</a>
+			</div>
+			<div class="col s12 m6">
+				<img class="image" src="imgs/lapytopy.png">
+			</div>
+			<div class="col s10 offset-s1 m5 offset-m6 content">
+				<img class="screen" src="imgs/hue_gif.gif">			
+			</div>
+			<div class="col s12">
+				<ul class="collapsible" data-collapsible="accordion">
+	    			<li>
+		      			<div class="collapsible-header"><i class="material-icons">expand_more</i>Description</div>
+		      			<div class="collapsible-body"><span>			
+		      				<p>A collaborative project with two other developers , Hue is a MERN-stack app that detects colors based on an uploaded or public photo, calculates multiple complementary colors, and can be saved to the user's palette of colors</p>
+							<p>Tech Used: MongoDB, Mongoose, React.js, Node.js, Express, HTML, CSS, Javascript, Imagga API</p>
+							<p>Contributors: <a href="#">Desiree Rainey</a>, <a href="http://seancswanson.com">Sean Swanson</a></p>
+						</span></div>
+	    			</li>
+	    		</ul>
 			</div>
 		</div>
-    <ul id="menu">
-    	<li>github</li>
-    	<img src="imgs/GitHub-Mark-64px.png">
-    	<li>linkedin</li>
-    	<i class="medium material-icons">account_circle</i>
-    	<li>resume</li>
-    	<i class="medium material-icons">casino</i>
-    </ul>
+		<div class="row">
+			<div class="col s12 m5">
+				<h3>Warboats</h3>
+				<a class="waves-effect waves-light btn">Github</a>
+				<a class="waves-effect waves-light btn">Live Site</a>
+			</div>
+<!-- 			<div class="col s12 m6">
+				<img class="image" src="imgs/Warboatsgif.gif">
+			</div> -->
+			<div class="col s12 m6">
+				<img class="image" src="imgs/lapytopy.png">
+			</div>
+			<div class="col s10 offset-s1 m5 offset-m6 content">
+				<img class="screen" src="imgs/Warboatsgif.gif">			
+			</div>
+			<div class="col s12">
+				<ul class="collapsible" data-collapsible="accordion">
+	    			<li>
+		      			<div class="collapsible-header"><i class="material-icons">filter_drama</i>Description</div>
+		      			<div class="collapsible-body"><span>			
+		      				<p>An app based off the classic board game Battleship - user battles against an AI whose positions and targets are randomly selected</p>
+							<p>Tech Used: jQuery, Javascript, HTML, CSS</p>
+							<p>Help from: <a href="#">Nick Nedev</a></p>
+						</span></div>
+	    			</li>
+	    		</ul>
+			</div>
+		</div>
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/5.5.0/typeit.js"></script>
