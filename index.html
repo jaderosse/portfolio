@@ -2,81 +2,55 @@
 <html>
 <head>
 	<title>Jade's Portfolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 	<link rel="stylesheet" href="style.css">
 </head>
-<body>
-<!-- <img src="https://cdn.pixabay.com/photo/2017/01/18/21/34/cyprus-1990939_960_720.jpg">
- -->
- <div class="parallax-window" data-parallax="scroll" data-image-src="imgs/tree.jpg">
-
-	<h1>J a d e  <span id="rosse">R o s s e</span></h1>
-	<div class="container">
-		<h3>Full Stack Web Developer</h3>
-		<p>&&Musician&&Biblophile&&Dog Mom</p>
-	<a href="https://github.com/jaderosse"><img src="imgs/GitHub-Mark-64px.png"></a>
-	<a href="Jade_Resume.pdf"> <i class="medium material-icons">description</i></a>
+<body id="home">
+	<div class="navbar-fixed">
+		<nav>
+			<div class="nav-wrapper">
+				<a href="index.html" class="brand-logo">J a d e R o s s e</a>
+				<a href="#" data-activates="mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+				<ul class="right hide-on-med-and-down">
+					<li><a href="projects.html">Portfolio</a></li>
+					<li><a href="about.html">About Me</a></li>
+				</ul>
+			</div>
+		</nav>
 	</div>
-</div>
+	<ul class="side-nav" id="mobile">
+		<li><a href="index.html">Home</a></li>
+		<li><a href="projects.html">Portfolio</a></li>
+		<li><a href="about.html">About Me</a></li>
+	</ul>
+	<div id="pic">
+		<div class="container">
+			<h1 id="dev"></h1>
+			<p id="jade"></p>
+		</div>
+	</div>
+	<a id="butt" href="projects.html" class="waves-effect waves-light btn">See Projects</a>	
 	<div class="row">
-		<div id="portfolio" class="col s12 m6">
-			<h2 id="portfolio_title">Portfolio</h2>
-			<div class="project">
-				<div id="links">
-					<p>
-						<a href="https://github.com/jaderosse/projectone">
-							<img src="imgs/GitHub-Mark-32px.png">
-						</a>
-						<a href="https://jaderosse.github.io/projectone/">
-							<i class="material-icons">important_devices</i>
-						</a>
-					</p>
-				</div>
-				<img id="warboats" class="project_img" src="imgs/Warboatsgif.gif">
-				<ul>Tech Used:
-					<li>HTML/CSS</li>
-					<li>Javascript</li>
-					<li>JQuery</li>
-				</ul>
-			</div>
-			<div class="project">
-				<p>H2Oh</p>
-				<ul>Tech Used:
-					<li>HTML/CSS</li>
-					<li>Javascript</li>
-					<li>JQuery</li>
-				</ul>	
-				<img id="water" class="project_img" src="imgs/Water.gif">
-			</div>
-			<div class="project">
-				<p>Hue</p>
-				<img class="project_img" src="imgs/hue_gif.gif">
-				<ul>Tech Used:
-					<li>HTML/CSS</li>
-					<li>Javascript</li>
-					<li>JQuery</li>
-				</ul>
-			</div>
+		<div class="col s12 m4" id="gold">
+			<img src="imgs/GitHub-Mark-64px.png">
+			<a target="_blank" href="https://github.com/jaderosse">Github</a>
 		</div>
-			<div id="about" class="col s12 m6">
-				<h2>About Me</h2>
-				<p><em>I’m a detail-oriented, adaptive full-stack web developer and musician who loves to spot patterns and bring concepts to life. My goal is to learn from experts, personal relationships, and experiences and apply that to both professional, productive design and creative intuition. Regardless of the project in front of me, I am continuously eager to expand my skills and identity.</em></p>
-				<img id="me" src="imgs/BW_Jade_23320.jpg">
-			</div>
+		<div class="col s12 m4" id="blues">
+			<img src="imgs/linkedin.png">
+			<a target="_blank" href="https://www.linkedin.com/in/jade-rosse/">LinkedIn</a>
 		</div>
-	<div class="parallax-window" data-parallax="scroll">
-		<h1><span id="contactme">Contact</span> Me</h1>
-		<div class="container">		
-		<p>You can contact me via plane train automobile wire transfer gift basket job offer</p>
-		<i class="medium material-icons">local_phone</i><i class="medium material-icons">mail</i><i class="medium material-icons">pregnant_woman</i>
+		<div class="col s12 m4" id="res">
+			<i class="medium material-icons">description</i>
+			<a target="_blank" href="JRosse_Resume.pdf">Resume</a>
+		</div>
 	</div>
-</div>
-<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-<script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
-<script src="script.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/5.5.0/typeit.js"></script>
+	<script src="script.js"></script>
 </body>
 </html>
