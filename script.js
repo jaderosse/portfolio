@@ -58,5 +58,5 @@ $(document).ready( function() {
 		$("#res a").hide();
 	});
 
-
+	$('.modal').modal();
 });

@@ -21,7 +21,7 @@
 }
 
 #gold {
-	background-color: rgba(210,194,152, 0.5);
+	background-color: rgba(135,155,183, 0.3);
 	height: 170px;
 	border-radius: 25px;
 	border: 2px solid black;
@@ -39,7 +39,7 @@
 }
 
 #blues {
-	background-color: rgba(133,151,163, 0.5);
+	background-color: rgba(82,96,117, 0.5);
 	height: 170px;
 	border-radius: 25px;
 	border: 2px solid black;
@@ -59,7 +59,7 @@
 }
 
 #res {
-	background-color: rgba(210,194,152, 0.3);
+	background-color: rgba(48,55,65, 0.6);
 	height: 170px;
 	border-radius: 25px;
 	border: 2px solid black;
@@ -121,31 +121,10 @@ i.material-icons {
 
 /*PROJECTS*/
 .image {
-	height: 300px;
+	height: 350px;
 	width: 100%;
 	margin-left: 50px;
 	margin-top: 20px;
-}
-
-@media screen and (max-width: 800px){
-	#projects .row{
-		width: 100%;
-		height: 900px;
-		margin-left: 0;
-	}
-	.image{
-		margin-left: 0;
-	}
-
-	#proj img {
-		height: 500px;
-	}
-}
-
-@media screen and (min-width: 1000px){
-	#proj img {
-		height: 520px;
-	}
 }
 
 #project-type {
@@ -165,6 +144,7 @@ i.material-icons {
 #proj {
 	width: 100%;
 	height: 600px;
+	margin-bottom: 100px;
 }
 
 #proj img {
@@ -181,8 +161,9 @@ i.material-icons {
 }
 
 .screen {
-	height: 250px;
+	height: 300px;
 	width: 90%;
+	margin-top: -50px;
 }
 
 @media screen and (min-width: 1200px){
@@ -193,7 +174,7 @@ i.material-icons {
 
 @media screen and (max-width: 800px) and (min-width: 600px){
 	.screen {
-		margin-left: -65px;
+		margin-left: -55px;
 	}
 } 
 
@@ -203,7 +184,43 @@ i.material-icons {
 	}
 } 
 
+@media screen and (max-width: 380px){
+	.screen {
+		height: 220px;
+		margin-top: 25px;
+		margin-left: 2px;
+	}
+	.image {
+		height: 270px;
+	}
+} 
+
+@media screen and (max-width: 450px){
+	#proj {
+		margin-bottom: -120px;
+	}	
+}
+
+@media screen and (max-width: 800px){
+	#projects .row{
+		width: 100%;
+		height: 900px;
+		margin-left: 0;
+	}
+	.image{
+		margin-left: 0;
+	}
+
+	#proj img {
+		height: 450px;
+	}
+}
+
 /*ABOUT*/
+#blurb {
+	text-align: center;
+}
+
 #me {
 	height: 230px;
 	width: 300px;
@@ -215,6 +232,7 @@ i.material-icons {
 #bout {
 	width: 100%;
 	height: 600px;
+	margin-bottom: 100px;
 }
 
 #about-type {
@@ -225,6 +243,7 @@ i.material-icons {
 
 #bout img {
 	width: 100%;
+	height: 600px;
 }
 
 @media screen and (max-width: 800px){
@@ -233,12 +252,11 @@ i.material-icons {
 	}
 }
 
-@media screen and (min-width: 1000px){
-	#bout img {
-		height: 520px;
+@media screen and (max-width: 450px){
+	#bout {
+		margin-bottom: -75px;
 	}
 }
-
 
 
 
