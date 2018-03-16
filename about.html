@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 	<link rel="stylesheet" href="style.css">
 </head>
@@ -32,37 +32,40 @@
 		<h2 id="about-type"></h2>
 	</div>
 	<div id="about-row" class="row">
-		<div class="col s10 offset-s1 col m4">
+		<div class="col s10 offset-s1 col m4 offset">
 			<img id="me" src="imgs/BW_Jade_23320.jpg">
 		</div>
-		<div class="col s10 offset-s1 col m4 offset-m2">
+		<div id="brand" class="col s10 offset-s1 col m4 offset-m2">
 			<p><em>"I’m a detail-oriented, adaptive full-stack web developer and musician who loves to spot patterns and bring concepts to life. Regardless of the project in front of me, I am continuously eager to expand my skills and identity."</em></p>
 		</div>
 	</div>
 	<div id="blurb">
-		<p>I was born in Seattle, raised in sunny Las Vegas, and realized ten years ago how much I loved greenery and Nirvana. </p>
+		<p class="it_green">I was born in Seattle, raised in sunny Las Vegas, and realized ten years ago how much I loved greenery and Nirvana. </p>
 		<p> _ . _</p>
 		<p>My heart beats for puzzles, live music, Mexican food, and making new friends. </p>
 		<p> _ . _ </p>
-		<p>Buy me a Northern beer or Southern whiskey and I'll be as loyal to you as my dog is to anyone with treats.</p>
+		<p class="it_green">Buy me a Northern beer or Southern whiskey and I'll be as loyal to you as my dog is to anyone with treats.</p>
+		<p> _ . _ </p>
+		<p>I also took all of the pictures on this website :)</p>
 	</div>
-	<div>
-		<h4>See more of my <a href="#">projects</a></h4>
-		<h4>Download my <a href="#">resume</a></h4>
+	<div id="ask">
+		<h4>See more of my <a target="_blank" href="https://github.com/jaderosse">projects</a></h4>
+		<h4>Download my <a target="_blank" href="JRosse_Resume.pdf">resume</a></h4>
 		<h4>Or send me an <a href="#modal1">email</a></h4>
 	</div>
     <div id="modal1" class="modal modal-fixed-footer">
 	    <div class="modal-content">
-	    	<form action="mailto:jademrosse@gmail.com" method="post" enctype="text/plain">
+	    	<form action="mailto:jademrosse@gmail.com">
 	    		<input id="email" type="email" class="validate">
 	    		<label for="email" data-error="wrong" data-success="right">Email</label>
 	    		<textarea id="textarea1" class="materialize-textarea"></textarea>
 	    		<label for="textarea1">Message</label>
+	    		<div class="modal-footer">
+	        		<input type="submit" value="Send" class="modal-action modal-close waves-effect waves-green btn-flat">	
+    			</div>	
 	    	</form>
 	    </div>
-    	<div class="modal-footer">
-    		<input type="submit" value="Send" class="modal-action modal-close waves-effect waves-green btn-flat">
-    	</div>
+
   	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>

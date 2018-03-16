@@ -3,7 +3,7 @@
 	display: flex;
 	min-height: 100vh;
 	flex-direction: column;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Inconsolata', monospace;
 }
 
 .row {
@@ -15,9 +15,11 @@
 	text-transform: none;
 	opacity: 0.9;
 	border-radius: 7px;
-/*	background-color: #5dc1b4;
-	border: 5px solid #26a69a;
-	color: black;*/
+	bottom: 0;
+	margin-left: 43%;
+	width: 200px;
+	margin-top: -36px;
+	font-family: "Open Sans", sans-serif;
 }
 
 #gold {
@@ -119,12 +121,15 @@ i.material-icons {
 	color: black;
 }
 
+@media screen and (max-width: 480px){
+	#butt{
+		margin-left: 30%;
+	}
+}
+
 /*PROJECTS*/
-.image {
-	height: 350px;
-	width: 100%;
-	margin-left: 50px;
-	margin-top: 20px;
+#projects {
+	font-family: 'Open Sans', sans-serif;
 }
 
 #project-type {
@@ -152,9 +157,19 @@ i.material-icons {
 	height: 600px;
 }
 
+.image {
+	height: 350px;
+	width: 100%;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+
 .collapsible-header{
 	display: block;
-	text-align: center;
+}
+
+.collapsible-body {
+	text-align: left;
 }
 
 .content {
@@ -165,6 +180,10 @@ i.material-icons {
 	height: 300px;
 	width: 90%;
 	margin-top: -50px;
+}
+
+b {
+	color: #00897b;
 }
 
 @media screen and (min-width: 1200px){
@@ -198,7 +217,7 @@ i.material-icons {
 
 @media screen and (max-width: 450px){
 	#proj {
-		margin-bottom: -120px;
+		margin-bottom: -160px;
 	}	
 }
 
@@ -218,16 +237,29 @@ i.material-icons {
 }
 
 /*ABOUT*/
+#about{
+	font-family: 'Open Sans', sans-serif;
+}
+
+#about p {
+	font-size: 16px;
+}
+
 #blurb {
 	text-align: center;
+	margin: 50px 20px 0 20px;
+	border: 5px dashed black;
+}
+
+#brand {
+	margin-top: 50px;
 }
 
 #me {
 	height: 230px;
 	width: 300px;
-	border-radius: 100px;
+	border-radius: 25px;
 	border: 5px solid black;
-	margin-left: 0;
 }
 
 #bout {
@@ -247,6 +279,10 @@ i.material-icons {
 	height: 600px;
 }
 
+#ask {
+	text-align: center
+}
+
 @media screen and (max-width: 800px){
 	#bout img {
 		height: 420px;
@@ -255,9 +291,15 @@ i.material-icons {
 
 @media screen and (max-width: 450px){
 	#bout {
-		margin-bottom: -75px;
+		margin-bottom: -160px;
 	}
 }
+
+.it_green {
+	color: #00897b;
+}
+
+
 
 
 
