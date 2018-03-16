@@ -239,11 +239,16 @@ b {
 /*ABOUT*/
 #about{
 	font-family: 'Open Sans', sans-serif;
-	text-align: center;
+}
+
+#about p {
+	font-size: 16px;
 }
 
 #blurb {
+	text-align: center;
 	margin: 50px 20px 0 20px;
+	border: 5px dashed black;
 }
 
 #brand {
@@ -253,7 +258,7 @@ b {
 #me {
 	height: 230px;
 	width: 300px;
-	border-radius: 100px;
+	border-radius: 25px;
 	border: 5px solid black;
 }
 
@@ -274,6 +279,10 @@ b {
 	height: 600px;
 }
 
+#ask {
+	text-align: center
+}
+
 @media screen and (max-width: 800px){
 	#bout img {
 		height: 420px;
@@ -286,8 +295,11 @@ b {
 	}
 }
 
-.down {
-
+.it_green {
+	color: #00897b;
 }
+
+
+
 
 
