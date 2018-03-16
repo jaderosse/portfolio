@@ -11,7 +11,7 @@ $(document).ready( function() {
 	})
 	.type('Full-Stack Web Developer...')
 	.pause(500)
-	.options({speed: 50})
+	.options({speed: 100})
 	.delete(3)
 	.options({speed: 100})
 	.pause(500)
