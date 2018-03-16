@@ -286,6 +286,7 @@ b {
 @media screen and (max-width: 800px){
 	#bout img {
 		height: 420px;
+		width: auto;
 	}
 }
 
