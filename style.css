@@ -97,7 +97,7 @@ nav i {
 }
 
 #project-type {
-	margin-top: -300px;
+	margin-top: -200px;
 	color: white;
 	font-family: 'Inconsolata', monospace;
 }
@@ -180,7 +180,7 @@ b {
 
 @media screen and (max-width: 450px){
 	#proj {
-		margin-bottom: -175px;
+		margin-bottom: -300px;
 	}	
 }
 
@@ -195,7 +195,7 @@ b {
 	}
 
 	#proj img {
-		height: 400px;
+		height: 300px;
 	}
 }
 
