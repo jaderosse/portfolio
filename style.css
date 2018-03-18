@@ -4,77 +4,48 @@
 	min-height: 100vh;
 	flex-direction: column;
 	font-family: 'Inconsolata', monospace;
+	background-image: url('imgs/lake.JPG');
+	background-size: cover;
+}
+
+#home p {
+	font-size: 27px;
+	margin-top: 0;
+}
+
+#pic a {
+	font-size: 27px;
+	color: white;
 }
 
 .row {
-	margin: 0;
 	text-align: center;
 }
 
-#butt {
-	text-transform: none;
-	opacity: 0.9;
-	border-radius: 7px;
+.orb {
+	height: 160px;
+	width: 160px;
+	border: 2px solid white;
+	border-radius: 100px;
+	margin: 0 50px;
 	bottom: 0;
-	margin-left: 43%;
-	width: 200px;
-	margin-top: -36px;
-	font-family: "Open Sans", sans-serif;
 }
 
-#gold {
-	background-color: rgba(135,155,183, 0.3);
-	height: 170px;
-	border-radius: 25px;
-	border: 2px solid black;
-}
-
-#gold img {
-	margin-top: 45px;
-}
-
-#gold a{
+.orb a {
 	display: none;
 	font-size: 30px;
-	color: black;
+	color: white;
 	margin-top: 60px;
 }
 
-#blues {
-	background-color: rgba(82,96,117, 0.5);
-	height: 170px;
-	border-radius: 25px;
-	border: 2px solid black;
-}
-
-#blues img {
+.orb img {
 	height: 50px;
 	width: 50px;
 	margin-top: 50px;
 }
 
-#blues a {
-	display: none;
-	font-size: 30px;
-	color: black;
-	margin-top: 60px;
-}
-
-#res {
-	background-color: rgba(48,55,65, 0.6);
-	height: 170px;
-	border-radius: 25px;
-	border: 2px solid black;
-}
-
-#res a{
-	display: none;
-	font-size: 30px;
-	color: black;
-	margin-top: 60px;
-}
-
-#res i {
+.orb i {
+	color: white;
 	margin-top: 45px;
 }
 
@@ -86,14 +57,7 @@
 }
 
 #pic {
-	background-image: url('imgs/lake.JPG');
-	background-size: cover;
-	width: 100%;
-	height: 600px;
-}
-
-#home p {
-	font-size: 27px;
+	min-height: 580px;
 }
 
 .title {
@@ -117,13 +81,13 @@ nav .brand-logo {
 	font-size: 20px;	
 }
 
-i.material-icons {
-	color: black;
+.row .col.offset-s3 {
+	margin-top: 25px;
 }
 
 @media screen and (max-width: 480px){
-	#butt{
-		margin-left: 30%;
+	.orb {
+		margin: 0;
 	}
 }
 
@@ -192,6 +156,12 @@ b {
 	}
 } 
 
+/*@media screen and (min-width: 600px){
+	#gold {
+		position:;
+	}
+}*/ 
+
 @media screen and (max-width: 800px) and (min-width: 600px){
 	.screen {
 		margin-left: -55px;
@@ -249,6 +219,7 @@ b {
 	text-align: center;
 	margin: 50px 20px 0 20px;
 	border: 5px dashed black;
+	background-color: #FFFFF2;
 }
 
 #brand {
@@ -269,7 +240,7 @@ b {
 }
 
 #about-type {
-	margin-top: -350px;
+	margin-top: -250px;
 	color: white;
 	font-family: 'Inconsolata', monospace;
 }	
@@ -285,7 +256,7 @@ b {
 
 @media screen and (max-width: 800px){
 	#bout img {
-		height: 420px;
+		height: 300px;
 	}
 }
 

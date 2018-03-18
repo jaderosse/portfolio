@@ -15,7 +15,8 @@ $(document).ready( function() {
 	.delete(3)
 	.options({speed: 100})
 	.pause(500)
-	.type('<p>& Musician & Bibliophile & Dog Mom</p>')
+	.type('<p><a target="_blank" href="https://jaderosse.bandcamp.com/">& Musician &</a></p>')
+	.type('<p>Bibliophile & Dog Mom</p>')
 	.pause(1000)
 	.type('<h2>&hearts;</h2>')
 
@@ -33,29 +34,20 @@ $(document).ready( function() {
 		autoStart: false
 	});
 
-	$("#gold").hover(function(){
-		$("#gold img").hide();
-		$("#gold a").show();
+	$(".orb").hover(function(){
+		$(this).find('img').hide();
+		$(this).find('a').show();
 	}, function(){
-		$("#gold img").show();
-		$("#gold a").hide();
+		$(".orb img").show();
+		$(".orb a").hide();
 	});
 
-	$("#blues").hover(function(){
-		$("#blues img").hide();
-		$("#blues a").show();
+	$(".orb").hover(function(){
+		$(this).find('i').hide();
+		$(this).find('a').show();
 	}, function(){
-		$("#blues img").show();
-		$("#blues a").hide();
-	});
-
-
-	$("#res").hover(function(){
-		$("#res i").hide();
-		$("#res a").show();
-	}, function(){
-		$("#res i").show();
-		$("#res a").hide();
+		$(this).find('i').show();
+		$(this).find('a').hide();
 	});
 
 	$('.modal').modal();
