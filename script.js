@@ -34,21 +34,22 @@ $(document).ready( function() {
 		autoStart: false
 	});
 
-	$(".orb").hover(function(){
-		$(this).find('img').hide();
-		$(this).find('a').show();
-	}, function(){
-		$(".orb img").show();
-		$(".orb a").hide();
-	});
+	// $(".orb").hover(function(){
+	// 	$(this).find('img').hide();
+	// 	$(this).find('a').show();
+	// }, function(){
+	// 	$(".orb img").show();
+	// 	$(".orb a").hide();
+	// });
 
-	$(".orb").hover(function(){
-		$(this).find('i').hide();
-		$(this).find('a').show();
-	}, function(){
-		$(this).find('i').show();
-		$(this).find('a').hide();
-	});
+	// $(".orb").hover(function(){
+	// 	$(this).find('i').hide();
+	// 	$(this).find('a').show();
+	// }, function(){
+	// 	$(this).find('i').show();
+	// 	$(this).find('a').hide();
+	// });
 
 	$('.modal').modal();
 });
+

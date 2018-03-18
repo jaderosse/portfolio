@@ -57,7 +57,7 @@
 }
 
 #pic {
-	min-height: 580px;
+	min-height: 550px;
 }
 
 .title {
@@ -81,8 +81,8 @@ nav .brand-logo {
 	font-size: 20px;	
 }
 
-.row .col.offset-s3 {
-	margin-top: 25px;
+nav i {
+	color: black;
 }
 
 @media screen and (max-width: 480px){
@@ -256,8 +256,7 @@ b {
 
 @media screen and (max-width: 800px){
 	#bout img {
-		height: 420px;
-		width: auto;
+		height: 280px;
 	}
 }
 
