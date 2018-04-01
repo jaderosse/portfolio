@@ -17,8 +17,6 @@ $(document).ready( function() {
 	.pause(500)
 	.type('<p><a target="_blank" href="https://jaderosse.bandcamp.com/">& Musician &</a></p>')
 	.type('<p>Bibliophile & Dog Mom</p>')
-	.pause(1000)
-	.type('<p>&hearts;</p>')
 
 	new TypeIt('#about-type', {
 		strings: 'About Me',
